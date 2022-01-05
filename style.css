@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+
+	body {
+font-family: ubuntu;
+	
+	
+	}
+
+#outerWrapper {
+	margin: 100px auto;
+	width: 800px;
+	background-color: #E67E3E;
+	padding: 50px;
+  border-radius: 35px;
+}
+
+
+
+	 
+nav {
+	
+	color: white;
+	font-size: 16px;
+	margin: 0 ;
+	overflow: hidden;
+	background-color: #654F97;
+	text-align: center;
+	
+}
+
+nav ul {
+	margin: 0;
+	
+	list-style: none;
+	
+}
+nav ul li {
+	
+	
+	text-align: center;
+}
+nav ul li a {
+	line-height: 25px;
+	display: inline-block;
+	color: white;
+	background-color: #654F97;
+	text-decoration: none;
+}
+
+
+*/
+nav{
+  
+	color: white;
+	font-size: 16px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    background-color: #654F97;
+    text-align:center;
+}
+nav li{
+    display:inline;
+    line-height: 25px;
+    color: white;
+	background-color: #654F97;
+	text-decoration: none;
+
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+	background-color: #654F97;
+}
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  color:#F0C762;
+
+}
+h1:hover{
+  text-shadow: 4px 3px #369E8D;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 400;
+  background-color: #F0C762;
+  color: #654F97;
+  width: 45%;
+    padding: 5%;
+    
+ 
+}
+
+p{
+  color: whitesmoke;
+ 
+}
+a{
+  text-decoration: underline;
+  color: #654F97;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+a:hover{
+
+  color: whitesmoke;
+  background-color:#654F97 ;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+header {
+	text-align: center;
+	background-color: #E67E3E;
+}
+
+footer {
+	font-size: small;
+	text-align: center;
+
+}
+section {
+	float: left;
+width: 100%;
+	padding:5%;
+
+	background-color: #369E8D;
+}
+
+#contentWrapper {
+	overflow: hidden;
+}
+
+button {
+  background-color: #369E8D;
+  border: 2px solid #654F97;
+  color: whitesmoke;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #654F97;
+  color: white;
+}

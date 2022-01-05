@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Kreiranje
+    pop-up boxeva</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+<body>
+  <div id="outerWrapper">
+    <header>
+
+      <nav>
+        <ul>
+          <li>
+            <h1>Kreiranje
+              pop-up boxeva</h1>
+          </li>
+        </ul>
+      </nav> <!-- End nav -->
+    </header> <!-- End header -->
+    <div id="contentWrapper">
+      <section>
+        <h2>Kliknite na dugme</h2>
+
+        <button onclick="myFunction()">DUGME</button>
+        <p id="demo"></p>
+        <script>
+          function myFunction() {
+            var x;
+            var person = prompt("Unesite vaše ime", "Ime Prezime");
+            if (person != null) {
+              x = "Pozradv " + person + "! Kako ste?";
+              document.getElementById("demo").innerHTML = x;
+            }
+          }
+        </script>
+      </section>
+
+
+
+</body>
+</head>
+
+</html>
